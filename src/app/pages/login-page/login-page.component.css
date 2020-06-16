@@ -1,0 +1,41 @@
+.login-page{
+    width:100vw;
+    height: 100vh;
+    background-image: url("../../../assets/background.png");
+}
+.vertical-align{
+    display: flex;
+    align-items: center;
+    height: 100%;
+    width:100%;
+}
+.modal-login{
+    width: 30vw;
+    height: 70vh;
+    border:1px solid gray;
+    text-align: center;
+    padding: 3%;
+    padding-right:1% !important;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    background-color: white;
+}
+.format{
+    width: 100%;
+    height: 100%;
+}
+.modal-login-row{
+    width: 100%;
+}
+
+.full-width{
+    width: 100%;
+}
+
+.logo{
+    width:45%;
+    height: 45%;
+}
+
+.margin-separate{
+    margin-bottom: 5%;
+}
