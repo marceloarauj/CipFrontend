@@ -1,0 +1,41 @@
+.example-tree-invisible {
+    display: none;
+  }
+  
+  .example-tree{
+    background-color:transparent;
+  }
+
+  .example-tree ul,
+  .example-tree li {
+    margin-top: 0;
+    margin-bottom: 0;
+    list-style-type: none;
+    background-color: (0,0,0,.0);
+  }
+  .modal-bg{
+    background: linear-gradient(45deg,#FFFFFF,#86bbdb);
+    box-shadow: 2px 2px 2px 1px gray;
+    padding-left: 40px;
+    border:1px solid gray;
+  }
+  .titulo{
+      font-family: 'Verdana', Times, sans-serif;
+      font-size: 180%;
+      color: black;
+  }
+
+  .margin-format{
+    margin-top: 50px;
+  }
+  .margin-top{
+      margin-top: 1%;
+  }
+  .text-format{
+    font-family: 'Verdana', Times, sans-serif;
+  }
+
+  .text-title-format{
+    font-family: 'Verdana', Times, sans-serif;
+    font-size: 150%;
+  }

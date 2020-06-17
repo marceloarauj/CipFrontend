@@ -1,1 +1,8 @@
-<LoginPage></LoginPage>
+<div *ngIf="!rotaTemCabecalho()" class="container-fluid full-width">
+    <div class="row full-height">
+        <div class="col-1 full-height padding-format">
+            <img class="icon-form" src="../assets/cip-logo.png"/>
+        </div>
+    </div>
+</div>
+<router-outlet></router-outlet>

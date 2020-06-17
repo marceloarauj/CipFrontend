@@ -7,4 +7,12 @@ import {LoginPageComponent} from './pages/login-page/login-page.component';
 })
 export class AppComponent {
   title = 'ProjetoCursos';
+
+
+  rotaTemCabecalho = function rotaAtualTemCabecalho():Boolean{
+    
+    const rotaAtual = window.location.pathname;
+    return rotaAtual === "/login";
+  }
+  
 }

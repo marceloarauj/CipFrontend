@@ -12,4 +12,10 @@ export class LoginPageComponent implements OnInit {
   ngOnInit() {
   }
 
+  
+}
+
+interface Credentials{
+  email:String,
+  senha:String
 }

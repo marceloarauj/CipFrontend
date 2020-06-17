@@ -8,11 +8,16 @@ import { LoginPageComponent } from './pages/login-page/login-page.component';
 import { MatFormFieldModule, MatInputModule } from '@angular/material';
 import {MatIconModule} from '@angular/material/icon';
 import {MatButtonModule} from '@angular/material/button';
+import { PortalUsuarioComponent } from './pages/portal-usuario/portal-usuario.component';
+import {MatTreeModule} from '@angular/material/tree';
+import { AdminComponent } from './pages/admin/admin.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    LoginPageComponent
+    LoginPageComponent,
+    PortalUsuarioComponent,
+    AdminComponent
   ],
   imports: [
     BrowserModule,
@@ -21,7 +26,8 @@ import {MatButtonModule} from '@angular/material/button';
     MatFormFieldModule,
     MatButtonModule,
     MatIconModule,
-    MatInputModule
+    MatInputModule,
+    MatTreeModule
   ],
   providers: [],
   bootstrap: [AppComponent]
